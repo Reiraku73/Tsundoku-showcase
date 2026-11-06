@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/app-Android-3ddc84" />
   <img src="https://img.shields.io/badge/web-in%20development-lightgrey" />
   <img src="https://img.shields.io/badge/status-Demo-orange" />
-  <img src="https://img.shields.io/badge/version-v0.4.2-blue" />
+  <img src="https://img.shields.io/badge/version-v0.4.3-blue" />
   <img src="https://img.shields.io/badge/built%20with-Expo%20%C2%B7%20React-61dafb" />
   <img src="https://img.shields.io/badge/backend-Supabase-3ecf8e" />
 </p>
@@ -29,7 +29,7 @@ Tsundoku is a mobile app **and** a website, both on the same backend. The app is
 |---|---|---|
 | **For** | Readers | Creators and visitors |
 | **What it does** | Read, discover, build your library, upload from the phone | Public landing page and the **Studio**, where creators upload and manage their series |
-| **Status** | Demo APK available (v0.4.2) | In development, not deployed yet |
+| **Status** | Demo APK available (v0.4.3) | In development, not deployed yet |
 
 ---
 
@@ -38,8 +38,10 @@ Tsundoku is a mobile app **and** a website, both on the same backend. The app is
 * 📖 **Own streaming reader** — opens a CBZ and shows the first page as soon as it's extracted, without waiting for the whole file
 * ↕️ **Two reading modes** — continuous vertical scroll or page by page, LTR or RTL, with configurable tap zones
 * ⏭️ **Seamless chapters** — the next one preloads 8 pages before the end
-* 📶 **Online or offline** — streams by default; download a chapter to read it without a connection
-* 📚 **Library** with custom folders and a "Continue reading" row
+* 📶 **Online or offline** — streams by default; download a chapter (or the whole series) to read it without a connection
+* 🗣️ **Chapters in several languages** — the reader picks your reading language and offers the others when a chapter isn't in it
+* 📚 **Library** with custom folders, your own drag-to-sort order and a "Continue reading" row
+* 📤 **Upload from the phone** — a CBZ or just the chapter's loose images, packed for you
 * ⭐ **Netflix-style home** — rotating featured banner, rows by category, tag filters
 * 🌐 **Four languages** (EN, ES, JA, KO) — interface, reading language and a per-series override
 
@@ -87,6 +89,7 @@ Tsundoku is a mobile app **and** a website, both on the same backend. The app is
 
 Active development (phase 5 of 6). The demo APK works; public sign-up stays closed until launch.
 Demo builds before **v1.0.0** are published as APKs in this repo's [releases](../../releases).
+Since **v0.4.3** older APKs no longer work (the backend changed how chapters are stored), so always grab the latest one.
 
 ---
 
